@@ -15,7 +15,7 @@ table reader_types {
 
 table accounts {
   id int [pk,increment]
-  userId int [ref: > readers.personID]
+  personID varchar [ref: > readers.personID]
   username varchar
   password varchar
   status accounts_status
