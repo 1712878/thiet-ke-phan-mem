@@ -1,0 +1,102 @@
+table readers {
+  personID varchar [pk]
+  name nvarchar
+  dob datetime
+  address nvarchar
+  email varchar
+  phone varchar
+  type int [ref: > reader_types.id] 
+}
+
+table reader_types {
+  id int [pk, increment]
+  name varchar
+}
+
+table accounts {
+  id int [pk,increment]
+  userId int [ref: > readers.personID]
+  username varchar
+  password varchar
+  status accounts_status
+}
+
+enum accounts_status {
+  active
+  block
+}
+
+table publishers {
+  id int [pk, increment]
+  name varchar
+}
+
+table categories {
+  id int [pk, increment]
+  name varchar
+}
+
+table books {
+  id int [pk, increment]
+  title varchar
+  publisher int [ref: > publishers.id]
+  isbn varchar
+  category int [ref: > categories.id]
+  fine double
+}
+
+table authors {
+  id int [pk,increment]
+  name varchar
+  description varchar
+}
+
+table author_book {
+  id int [pk, increment]
+  idAuthor int [ref: > authors.id]
+  idBook int [ref: > books.id]
+}
+
+table book_items {
+  id int [pk, increment]
+  barcode varchar
+  status book_status
+  canBorrow bool
+  bookId int [ref: > books.id]
+  shelf varchar
+  publishdate datetime
+}
+
+enum book_status {
+  available
+  notavailable
+}
+
+table book_reservations {
+  id int [pk,increment]
+  userId int [ref: > accounts.id]
+  time datetime
+}
+
+table book_borrow {
+  id int [pk, increment]
+  borrowTime datetime
+  dueTime datetime
+  bookItemId int [ref: > book_items.id]
+  accountId int [ref: > accounts.id]
+}
+
+table cards {
+  id int [pk,increment]
+  barcode varchar
+  readerID varchar [ref: > readers.personID]
+}
+
+table fines {
+  id int [pk, increment]
+  createdAt datetime
+  bookBorrowID int [ref: > book_borrow.id]
+  amount double
+}
+
+https://dbdiagram.io/d/5ef5700d9ea313663b3b15fa
