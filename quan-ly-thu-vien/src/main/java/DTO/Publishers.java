@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Publishers {
+public class Publishers implements DTO {
     private int id;
     private String name;
     private Collection<Books> booksById;

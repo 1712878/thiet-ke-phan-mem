@@ -6,7 +6,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Readers {
+public class Readers  implements DTO {
     private int personid;
     private String name;
     private Timestamp dob;

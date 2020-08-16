@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "BOOK_BORROW", schema = "QuanLyThuVien", catalog = "")
-public class BookBorrow {
+public class BookBorrow implements DTO {
     private int id;
     private Timestamp borrowtime;
     private Timestamp duetime;

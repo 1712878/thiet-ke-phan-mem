@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "FREQUENTLY_QUESTIONS", schema = "QuanLyThuVien", catalog = "")
-public class FrequentlyQuestions {
+public class FrequentlyQuestions  implements DTO {
     private int id;
     private String question;
     private String answer;

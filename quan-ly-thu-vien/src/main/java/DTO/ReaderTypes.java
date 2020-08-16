@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "READER_TYPES", schema = "QuanLyThuVien", catalog = "")
-public class ReaderTypes {
+public class ReaderTypes implements DTO {
     private int id;
     private String name;
     private Collection<Readers> readersById;

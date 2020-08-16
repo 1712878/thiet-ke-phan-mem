@@ -5,14 +5,14 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
-import UTILS.HibernateAnnotationUtil;
+import UTILS.HibernateUtils;
 
 public class Main extends Application {
 
     static {
 
         try {
-            Session session = HibernateAnnotationUtil.getSessionFactory().openSession();
+            Session session = HibernateUtils.getSessionFactory().openSession();
             Transaction transaction=session.beginTransaction();
 
             System.out.println("Create successfully!!");

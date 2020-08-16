@@ -5,7 +5,7 @@ import java.sql.Timestamp;
 import java.util.Objects;
 
 @Entity
-public class Fines {
+public class Fines implements DTO {
     private int id;
     private Timestamp createdat;
     private Integer bookborrowid;

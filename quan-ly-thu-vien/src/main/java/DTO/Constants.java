@@ -7,7 +7,7 @@ import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
-public class Constants {
+public class Constants implements DTO {
     private int id;
     private String k;
     private String val;

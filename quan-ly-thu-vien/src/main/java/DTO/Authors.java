@@ -5,7 +5,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Authors {
+public class Authors implements DTO {
     private int id;
     private String name;
     private String description;

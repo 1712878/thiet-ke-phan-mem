@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "USER_RESPONSES", schema = "QuanLyThuVien", catalog = "")
-public class UserResponses {
+public class UserResponses implements DTO {
     private int id;
     private Integer accountid;
     private String content;

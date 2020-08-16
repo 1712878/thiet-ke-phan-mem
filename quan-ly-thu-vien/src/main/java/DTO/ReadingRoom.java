@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "READING_ROOM", schema = "QuanLyThuVien", catalog = "")
-public class ReadingRoom {
+public class ReadingRoom implements DTO {
     private int id;
     private String roomname;
     private Collection<RoomBorrow> roomBorrowsById;
