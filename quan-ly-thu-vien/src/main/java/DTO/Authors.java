@@ -1,4 +1,4 @@
-package models;
+package DTO;
 
 import javax.persistence.*;
 import java.util.Collection;

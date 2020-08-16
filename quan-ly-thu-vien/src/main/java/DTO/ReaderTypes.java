@@ -1,14 +1,15 @@
-package models;
+package DTO;
 
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Publishers {
+@Table(name = "READER_TYPES", schema = "QuanLyThuVien", catalog = "")
+public class ReaderTypes {
     private int id;
     private String name;
-    private Collection<Books> booksById;
+    private Collection<Readers> readersById;
 
     @Id
     @Column(name = "ID")
@@ -34,7 +35,7 @@ public class Publishers {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Publishers that = (Publishers) o;
+        ReaderTypes that = (ReaderTypes) o;
         return id == that.id &&
                 Objects.equals(name, that.name);
     }
@@ -44,12 +45,12 @@ public class Publishers {
         return Objects.hash(id, name);
     }
 
-    @OneToMany(mappedBy = "publishersByPublisherid")
-    public Collection<Books> getBooksById() {
-        return booksById;
+    @OneToMany(mappedBy = "readerTypesByType")
+    public Collection<Readers> getReadersById() {
+        return readersById;
     }
 
-    public void setBooksById(Collection<Books> booksById) {
-        this.booksById = booksById;
+    public void setReadersById(Collection<Readers> readersById) {
+        this.readersById = readersById;
     }
 }

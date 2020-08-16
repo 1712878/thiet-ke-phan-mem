@@ -1,11 +1,11 @@
-package models;
+package DTO;
 
 import javax.persistence.*;
 import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Categories {
+public class Publishers {
     private int id;
     private String name;
     private Collection<Books> booksById;
@@ -34,7 +34,7 @@ public class Categories {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Categories that = (Categories) o;
+        Publishers that = (Publishers) o;
         return id == that.id &&
                 Objects.equals(name, that.name);
     }
@@ -44,7 +44,7 @@ public class Categories {
         return Objects.hash(id, name);
     }
 
-    @OneToMany(mappedBy = "categoriesByCategoryid")
+    @OneToMany(mappedBy = "publishersByPublisherid")
     public Collection<Books> getBooksById() {
         return booksById;
     }

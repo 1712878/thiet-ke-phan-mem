@@ -4,10 +4,8 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 import org.hibernate.Session;
-import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
-import org.hibernate.cfg.Configuration;
-import utils.HibernateAnnotationUtil;
+import UTILS.HibernateAnnotationUtil;
 
 public class Main extends Application {
 

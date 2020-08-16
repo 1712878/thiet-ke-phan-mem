@@ -8,24 +8,24 @@
         <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
         <property name="connection.username">root</property>
         <property name="connection.password">8888</property>
-        <mapping class="models.Accounts"/>
-        <mapping class="models.Authors"/>
-        <mapping class="models.AuthorBook"/>
-        <mapping class="models.Books"/>
-        <mapping class="models.BookBorrow"/>
-        <mapping class="models.BookItems"/>
-        <mapping class="models.BookReservations"/>
-        <mapping class="models.Cards"/>
-        <mapping class="models.Categories"/>
-        <mapping class="models.Constants"/>
-        <mapping class="models.Fines"/>
-        <mapping class="models.FrequentlyQuestions"/>
-        <mapping class="models.Publishers"/>
-        <mapping class="models.Readers"/>
-        <mapping class="models.ReaderTypes"/>
-        <mapping class="models.ReadingRoom"/>
-        <mapping class="models.RoomBorrow"/>
-        <mapping class="models.UserResponses"/>
+        <mapping class="DTO.Accounts"/>
+        <mapping class="DTO.Authors"/>
+        <mapping class="DTO.AuthorBook"/>
+        <mapping class="DTO.Books"/>
+        <mapping class="DTO.BookBorrow"/>
+        <mapping class="DTO.BookItems"/>
+        <mapping class="DTO.BookReservations"/>
+        <mapping class="DTO.Cards"/>
+        <mapping class="DTO.Categories"/>
+        <mapping class="DTO.Constants"/>
+        <mapping class="DTO.Fines"/>
+        <mapping class="DTO.FrequentlyQuestions"/>
+        <mapping class="DTO.Publishers"/>
+        <mapping class="DTO.Readers"/>
+        <mapping class="DTO.ReaderTypes"/>
+        <mapping class="DTO.ReadingRoom"/>
+        <mapping class="DTO.RoomBorrow"/>
+        <mapping class="DTO.UserResponses"/>
 
 
         <!-- DB schema will be updated if needed -->
