@@ -1,0 +1,22 @@
+* {
+  -fx-primary: #6200ee;
+  -fx-secondary: #03dac5;
+  -fx-gray: #606060;
+}
+
+.primary-btn {
+  -fx-background-color: -fx-primary;
+  -fx-text-fill: #fff;
+}
+
+.secondary-btn {
+  -fx-background-color: -fx-secondary;
+}
+
+.tab {
+  -fx-background-color: -fx-primary;
+}
+
+.tab-header-background {
+  -fx-background-color: -fx-primary;
+}
