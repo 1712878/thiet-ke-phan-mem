@@ -20,36 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AuthorBook.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Authors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookBorrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookItems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookReservations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Cards.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Categories.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Fines.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/FrequentlyQuestions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Publishers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ReaderTypes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Readers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ReadingRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/RoomBorrow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/models/UserResponses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HashCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateAnnotationUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jfoenix_jfoenix_8_0_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quan-ly-thu-vien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quan-ly-thu-vien.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/View/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/View/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +79,7 @@
         <option value="hibernate-configuration-5.2" />
         <option value="hibernate-main-5.2" />
         <option value="Class" />
+        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -139,6 +116,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/utils" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.4183908" />
@@ -257,7 +235,8 @@
       <workItem from="1597558103894" duration="3430000" />
       <workItem from="1597566846324" duration="2117000" />
       <workItem from="1597579974303" duration="2046000" />
-      <workItem from="1597585516923" duration="303000" />
+      <workItem from="1597585516923" duration="1171000" />
+      <workItem from="1597588013786" duration="2793000" />
     </task>
     <servers />
   </component>
@@ -317,25 +296,37 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="737" y="314" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597545365993" />
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1597585908407">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1597587994883">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597585908407" />
-    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1597585908407">
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994883" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1597587994882">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597585908407" />
-    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1597585908406">
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994882" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1597587994882">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597585908406" />
-    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1597585908407">
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994882" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1597587994883">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597585908407" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994883" />
+    <state x="591" y="314" width="728" height="485" key="MultipleFileMergeDialog" timestamp="1597588301226">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="591" y="314" width="728" height="485" key="MultipleFileMergeDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597588301226" />
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor" timestamp="1597545809381">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="131" width="1024" height="852" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1597545809381" />
+    <state x="731" y="468" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597588295043">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="731" y="468" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597588295043" />
+    <state x="623" y="259" key="search.everywhere.popup" timestamp="1597589317353">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="623" y="259" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597589317353" />
   </component>
 </project>

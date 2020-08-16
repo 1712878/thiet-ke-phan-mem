@@ -10,7 +10,7 @@ import org.hibernate.cfg.Configuration;
 import utils.HibernateAnnotationUtil;
 
 public class Main extends Application {
-    
+
     static {
 
         try {
