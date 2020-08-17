@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -23,53 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a07c4fc-fee7-4a42-a7e3-6e351c84efb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DTO/DTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UTILS/GenerateDAOFiles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/AddReaderFromFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/ReaderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/SignupAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/UTILS/AlertDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/user.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quan-ly-thu-vien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quan-ly-thu-vien.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/AuthorBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/AuthorBook.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Authors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Authors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookBorrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookReservations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Cards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Categories.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Fines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Fines.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/FrequentlyQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/FrequentlyQuestions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Publishers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Publishers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ReaderTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ReaderTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Readers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Readers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ReadingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ReadingRoom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/RoomBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/RoomBorrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/UserResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/UserResponses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UTILS/HibernateAnnotationUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/UTILS/HibernateUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/quan-ly-thu-vien.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Accounts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/AuthorBook.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Authors.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/BookBorrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/BookItems.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/BookReservations.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Books.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Cards.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Categories.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Constants.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Fines.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/FrequentlyQuestions.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Publishers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/ReaderTypes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/Readers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/ReadingRoom.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/RoomBorrow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/models/UserResponses.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/HashCode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/utils/HibernateAnnotationUtil.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +128,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/images" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -177,22 +136,23 @@
     <property name="recentsLimit" value="5" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-      <recent name="$PROJECT_DIR$/src/main/resources/views" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="handlers" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/images" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/utils" />
+    </key>
     <key name="ImportMappingsDialog.RecentPackages">
       <recent name="models" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="handlers" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
-      <recent name="$PROJECT_DIR$/src/main/java/utils" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/resources/views" />
     </key>
   </component>
   <component name="RunManager" selected="Application.GenerateDAOFiles">
@@ -257,17 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -310,7 +259,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <changelist id="8a07c4fc-fee7-4a42-a7e3-6e351c84efb1" name="Default Changelist" comment="" />
       <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -322,6 +271,9 @@
       <workItem from="1597579974303" duration="2046000" />
       <workItem from="1597585516923" duration="1171000" />
       <workItem from="1597588013786" duration="2793000" />
+      <workItem from="1597628779129" duration="138000" />
+      <workItem from="1597630323671" duration="8597000" />
+      <workItem from="1597642874634" duration="10485000" />
     </task>
     <servers />
   </component>
@@ -357,6 +309,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597584357915" />
+    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1597651579471">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597651579471" />
     <state x="687" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597545337285">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -369,10 +325,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="633" y="280" width="744" height="762" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597584383106" />
-    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597545914023">
+    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597634526769">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1597545914023" />
+    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1597634526769" />
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597591978217">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -414,9 +370,9 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="731" y="468" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597588295043" />
-    <state x="623" y="259" key="search.everywhere.popup" timestamp="1597589317353">
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1597651187042">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="623" y="259" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597589317353" />
+    <state x="623" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597651187042" />
   </component>
 </project>

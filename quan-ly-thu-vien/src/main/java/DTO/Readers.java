@@ -2,23 +2,39 @@ package DTO;
 
 import javax.persistence.*;
 import java.sql.Timestamp;
+import java.time.LocalDate;
 import java.util.Collection;
+import java.util.Date;
 import java.util.Objects;
 
 @Entity
 public class Readers  implements DTO {
     private int personid;
     private String name;
-    private Timestamp dob;
+    private LocalDate dob;
     private String address;
     private String email;
     private String phone;
+    private String gender;
     private Integer type;
     private Collection<Accounts> accountsByPersonid;
     private Collection<Cards> cardsByPersonid;
     private ReaderTypes readerTypesByType;
 
+    public Readers() {
+    }
+
+    public Readers(String name, LocalDate dob, String address, String email, String phone, Integer type) {
+        this.name = name;
+        this.dob = dob;
+        this.address = address;
+        this.email = email;
+        this.phone = phone;
+        this.type = type;
+    }
+
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "PERSONID")
     public int getPersonid() {
         return personid;
@@ -40,11 +56,11 @@ public class Readers  implements DTO {
 
     @Basic
     @Column(name = "DOB")
-    public Timestamp getDob() {
+    public LocalDate getDob() {
         return dob;
     }
 
-    public void setDob(Timestamp dob) {
+    public void setDob(LocalDate dob) {
         this.dob = dob;
     }
 
@@ -77,6 +93,20 @@ public class Readers  implements DTO {
     public void setPhone(String phone) {
         this.phone = phone;
     }
+
+    
+
+    @Basic
+    @Column(name = "GENDER")
+    public String getGender() {
+        return gender;
+    }
+    
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    
 
     @Basic
     @Column(name = "TYPE")
