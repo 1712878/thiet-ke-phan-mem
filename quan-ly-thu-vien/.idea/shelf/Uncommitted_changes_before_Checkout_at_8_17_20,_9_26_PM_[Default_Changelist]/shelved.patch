@@ -1,0 +1,299 @@
+Index: src/main/resources/fxml/QuanLyDocGia.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>\n<?import javafx.geometry.Insets?>\n<?import javafx.scene.control.Button?>\n<?import javafx.scene.effect.DropShadow?>\n<?import javafx.scene.layout.AnchorPane?>\n<?import javafx.scene.layout.BorderPane?>\n<?import javafx.scene.layout.HBox?>\n<?import javafx.scene.layout.VBox?>\n\n<AnchorPane prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"CONTROLLERS.QuanLyDocGia\">\n   <children>\n      <BorderPane maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"600.0\" prefWidth=\"1235.0\" style=\"-fx-background-color: #e5e5e5;\" stylesheets=\"@../css/style.css\">\n         <top>\n            <HBox BorderPane.alignment=\"CENTER\" />\n         </top>\n         <left>\n            <VBox maxWidth=\"-Infinity\" prefHeight=\"528.0\" prefWidth=\"201.0\" style=\"-fx-background-color: white;\" BorderPane.alignment=\"CENTER\">\n               <children>\n                  <HBox alignment=\"CENTER_LEFT\">\n                     <children>\n                        <VBox>\n                           <children>\n                              <Button fx:id=\"signup\" alignment=\"TOP_LEFT\" layoutX=\"10.0\" layoutY=\"10.0\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Đăng ký TK đọc giả\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"SERVER\" size=\"1.5em\" text=\"\uF233\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                              </Button>\n                              <Button fx:id=\"addReader\" alignment=\"TOP_LEFT\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Thêm đọc giả từ file\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"PLUS\" size=\"1.5em\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                                 <VBox.margin>\n                                    <Insets top=\"20.0\" />\n                                 </VBox.margin>\n                              </Button>\n                              <Button fx:id=\"readerList\" alignment=\"TOP_LEFT\" layoutX=\"10.0\" layoutY=\"214.0\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Danh sách đọc giả\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"TH_LIST\" size=\"1.5em\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                                 <VBox.margin>\n                                    <Insets top=\"20.0\" />\n                                 </VBox.margin>\n                              </Button>\n                           </children>\n                        </VBox>\n                     </children>\n                     <padding>\n                        <Insets bottom=\"10.0\" left=\"10.0\" right=\"10.0\" top=\"10.0\" />\n                     </padding>\n                     <VBox.margin>\n                        <Insets top=\"20.0\" />\n                     </VBox.margin>\n                  </HBox>\n               </children>\n            </VBox>\n         </left>\n         <center>\n            <VBox prefHeight=\"528.0\" prefWidth=\"1021.0\" BorderPane.alignment=\"CENTER\">\n               <padding>\n                  <Insets bottom=\"20.0\" left=\"20.0\" right=\"20.0\" top=\"20.0\" />\n               </padding>\n               <children>\n                  <BorderPane fx:id=\"mainView\" prefHeight=\"435.0\" prefWidth=\"994.0\">\n                     <center>\n<!--                        <fx:include source=\"listview.fxml\" BorderPane.alignment=\"CENTER\" />-->\n                     </center>\n                  </BorderPane>\n               </children>\n               <effect>\n                  <DropShadow color=\"#e8caca\" height=\"10.0\" radius=\"4.5\" width=\"10.0\" />\n               </effect>\n            </VBox>\n         </center>\n      </BorderPane>\n   </children>\n</AnchorPane>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/fxml/QuanLyDocGia.fxml	(revision 8009d2c9435fa914bb80ee0f84fb8d91a60890df)
++++ src/main/resources/fxml/QuanLyDocGia.fxml	(date 1597674090906)
+@@ -64,7 +64,7 @@
+                <children>
+                   <BorderPane fx:id="mainView" prefHeight="435.0" prefWidth="994.0">
+                      <center>
+-<!--                        <fx:include source="listview.fxml" BorderPane.alignment="CENTER" />-->
++                        <fx:include source="./QLDocGia/themDocGia.fxml" BorderPane.alignment="CENTER" />
+                      </center>
+                   </BorderPane>
+                </children>
+Index: src/main/resources/fxml/QLDocGia/themDocGia.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<?import java.lang.*?>\n<?import java.util.*?>\n<?import javafx.scene.*?>\n<?import javafx.scene.control.*?>\n<?import javafx.scene.layout.*?>\n\n<?import javafx.scene.image.ImageView?>\n<?import javafx.scene.image.Image?>\n<?import javafx.geometry.Insets?>\n<AnchorPane fx:id=\"rootPane\" prefHeight=\"561.0\" prefWidth=\"486.0\" stylesheets=\"@../../css/style.css\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"Controllers.EditProfileController\">\n    <children>\n        <VBox layoutX=\"-1.0\" prefHeight=\"513.0\" prefWidth=\"604.0\" AnchorPane.bottomAnchor=\"0.0\" AnchorPane.leftAnchor=\"0.0\" AnchorPane.rightAnchor=\"0.0\" AnchorPane.topAnchor=\"0.0\">\n            <children>\n                <VBox alignment=\"CENTER\" prefHeight=\"50.0\" prefWidth=\"50.0\">\n                    <children>\n                        <ImageView fx:id=\"imageConference\" fitHeight=\"86.0\" fitWidth=\"116.0\" nodeOrientation=\"INHERIT\" pickOnBounds=\"true\" preserveRatio=\"true\" style=\"-fx-image: #000;\" styleClass=\"border-image\">\n                            <image>\n                                <Image url=\"@../../images/user.png\" />\n                            </image>\n                            <VBox.margin>\n                                <Insets top=\"20.0\" />\n                            </VBox.margin>\n                        </ImageView>\n                    </children>\n                </VBox>\n                <GridPane prefHeight=\"289.0\" prefWidth=\"657.0\">\n                    <columnConstraints>\n                        <ColumnConstraints hgrow=\"SOMETIMES\" maxWidth=\"219.0\" minWidth=\"10.0\" prefWidth=\"140.0\" />\n                        <ColumnConstraints hgrow=\"SOMETIMES\" maxWidth=\"359.0\" minWidth=\"10.0\" prefWidth=\"310.0\" />\n                    </columnConstraints>\n                    <rowConstraints>\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                    </rowConstraints>\n                    <children>\n                        <Label style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Name\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </Label>\n                        <TextField fx:id=\"name\" disable=\"false\" prefHeight=\"25.0\" prefWidth=\"271.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-textfield\" GridPane.columnIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></TextField>\n                        <Label style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Username\" GridPane.rowIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></Label>\n                        <TextField fx:id=\"username\" disable=\"false\" style=\"-fx-font-size: 16px;\" GridPane.columnIndex=\"1\" GridPane.rowIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></TextField>\n                        <Label layoutX=\"20.0\" layoutY=\"191.0\" style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Email\" GridPane.rowIndex=\"2\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </Label>\n                        <TextField fx:id=\"email\" disable=\"false\" layoutX=\"239.0\" layoutY=\"113.0\" style=\"-fx-font-size: 16px;\" GridPane.columnIndex=\"1\" GridPane.rowIndex=\"2\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </TextField>\n                    </children>\n                    <VBox.margin>\n                        <Insets bottom=\"20.0\" left=\"20.0\" right=\"20.0\" top=\"20.0\" />\n                    </VBox.margin>\n                </GridPane>\n                <HBox prefHeight=\"87.0\" prefWidth=\"450.0\">\n                    <children>\n                        <AnchorPane prefHeight=\"87.0\" prefWidth=\"603.0\">\n                            <children>\n                                <Button layoutX=\"68.0\" layoutY=\"43.0\" mnemonicParsing=\"false\" prefHeight=\"40.0\" prefWidth=\"156.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-button\" text=\"Save\" textAlignment=\"CENTER\" textOverrun=\"CLIP\">\n                                    <effect>\n\n                                    </effect>\n                                </Button>\n                                <Button layoutX=\"276.0\" layoutY=\"43.0\" mnemonicParsing=\"false\" prefHeight=\"40.0\" prefWidth=\"156.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-button\" text=\"Cancel\" textAlignment=\"CENTER\" textOverrun=\"CLIP\">\n                                    <effect>\n\n                                    </effect>\n                                </Button>\n                            </children>\n                        </AnchorPane>\n                    </children>\n                </HBox>\n            </children>\n        </VBox>\n    </children>\n</AnchorPane>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/fxml/QLDocGia/themDocGia.fxml	(revision 8009d2c9435fa914bb80ee0f84fb8d91a60890df)
++++ src/main/resources/fxml/QLDocGia/themDocGia.fxml	(date 1597674373104)
+@@ -1,14 +1,19 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<?import java.lang.*?>
+-<?import java.util.*?>
+-<?import javafx.scene.*?>
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<?import javafx.scene.image.ImageView?>
+-<?import javafx.scene.image.Image?>
+ <?import javafx.geometry.Insets?>
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.DatePicker?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.control.TextField?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.layout.ColumnConstraints?>
++<?import javafx.scene.layout.GridPane?>
++<?import javafx.scene.layout.HBox?>
++<?import javafx.scene.layout.RowConstraints?>
++<?import javafx.scene.layout.VBox?>
++
+ <AnchorPane fx:id="rootPane" prefHeight="561.0" prefWidth="486.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EditProfileController">
+     <children>
+         <VBox layoutX="-1.0" prefHeight="513.0" prefWidth="604.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+@@ -34,18 +39,21 @@
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+-                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Name">
++                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Họ và tên">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+                         </Label>
+-                        <TextField fx:id="name" disable="false" prefHeight="25.0" prefWidth="271.0" style="-fx-font-size: 16px;" styleClass="jfx-textfield" GridPane.columnIndex="1">
++                        <TextField fx:id="name" alignment="CENTER" disable="false" prefHeight="25.0" prefWidth="271.0" style="-fx-font-size: 16px;" styleClass="jfx-textfield" GridPane.columnIndex="1">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></TextField>
+-                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Username" GridPane.rowIndex="1">
++                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Email" GridPane.rowIndex="1">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></Label>
+@@ -53,7 +61,7 @@
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></TextField>
+-                        <Label layoutX="20.0" layoutY="191.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Email" GridPane.rowIndex="2">
++                        <Label layoutX="20.0" layoutY="191.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Giới tính" GridPane.rowIndex="2">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+@@ -63,6 +71,39 @@
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+                         </TextField>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="SĐT" GridPane.rowIndex="3">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Ngày sinh" GridPane.rowIndex="4">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Địa chỉ" GridPane.rowIndex="5">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <TextField fx:id="email1" disable="false" style="-fx-font-size: 16px;" GridPane.columnIndex="1" GridPane.rowIndex="3">
++                     <opaqueInsets>
++                        <Insets />
++                     </opaqueInsets>
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </TextField>
++                  <DatePicker prefHeight="53.0" prefWidth="288.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </DatePicker>
++                  <TextField fx:id="email11" disable="false" style="-fx-font-size: 16px;" GridPane.columnIndex="1" GridPane.rowIndex="5">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </TextField>
+                     </children>
+                     <VBox.margin>
+                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+Index: target/classes/fxml/QLDocGia/themDocGia.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<?import java.lang.*?>\n<?import java.util.*?>\n<?import javafx.scene.*?>\n<?import javafx.scene.control.*?>\n<?import javafx.scene.layout.*?>\n\n<?import javafx.scene.image.ImageView?>\n<?import javafx.scene.image.Image?>\n<?import javafx.geometry.Insets?>\n<AnchorPane fx:id=\"rootPane\" prefHeight=\"561.0\" prefWidth=\"486.0\" stylesheets=\"@../../css/style.css\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"Controllers.EditProfileController\">\n    <children>\n        <VBox layoutX=\"-1.0\" prefHeight=\"513.0\" prefWidth=\"604.0\" AnchorPane.bottomAnchor=\"0.0\" AnchorPane.leftAnchor=\"0.0\" AnchorPane.rightAnchor=\"0.0\" AnchorPane.topAnchor=\"0.0\">\n            <children>\n                <VBox alignment=\"CENTER\" prefHeight=\"50.0\" prefWidth=\"50.0\">\n                    <children>\n                        <ImageView fx:id=\"imageConference\" fitHeight=\"86.0\" fitWidth=\"116.0\" nodeOrientation=\"INHERIT\" pickOnBounds=\"true\" preserveRatio=\"true\" style=\"-fx-image: #000;\" styleClass=\"border-image\">\n                            <image>\n                                <Image url=\"@../../images/user.png\" />\n                            </image>\n                            <VBox.margin>\n                                <Insets top=\"20.0\" />\n                            </VBox.margin>\n                        </ImageView>\n                    </children>\n                </VBox>\n                <GridPane prefHeight=\"289.0\" prefWidth=\"657.0\">\n                    <columnConstraints>\n                        <ColumnConstraints hgrow=\"SOMETIMES\" maxWidth=\"219.0\" minWidth=\"10.0\" prefWidth=\"140.0\" />\n                        <ColumnConstraints hgrow=\"SOMETIMES\" maxWidth=\"359.0\" minWidth=\"10.0\" prefWidth=\"310.0\" />\n                    </columnConstraints>\n                    <rowConstraints>\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                        <RowConstraints minHeight=\"10.0\" prefHeight=\"30.0\" vgrow=\"SOMETIMES\" />\n                    </rowConstraints>\n                    <children>\n                        <Label style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Name\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </Label>\n                        <TextField fx:id=\"name\" disable=\"false\" prefHeight=\"25.0\" prefWidth=\"271.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-textfield\" GridPane.columnIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></TextField>\n                        <Label style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Username\" GridPane.rowIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></Label>\n                        <TextField fx:id=\"username\" disable=\"false\" style=\"-fx-font-size: 16px;\" GridPane.columnIndex=\"1\" GridPane.rowIndex=\"1\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin></TextField>\n                        <Label layoutX=\"20.0\" layoutY=\"191.0\" style=\"-fx-font-size: 16px; -fx-font-weight: bold;\" text=\"Email\" GridPane.rowIndex=\"2\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </Label>\n                        <TextField fx:id=\"email\" disable=\"false\" layoutX=\"239.0\" layoutY=\"113.0\" style=\"-fx-font-size: 16px;\" GridPane.columnIndex=\"1\" GridPane.rowIndex=\"2\">\n                            <GridPane.margin>\n                                <Insets left=\"10.0\" right=\"10.0\" top=\"20.0\" />\n                            </GridPane.margin>\n                        </TextField>\n                    </children>\n                    <VBox.margin>\n                        <Insets bottom=\"20.0\" left=\"20.0\" right=\"20.0\" top=\"20.0\" />\n                    </VBox.margin>\n                </GridPane>\n                <HBox prefHeight=\"87.0\" prefWidth=\"450.0\">\n                    <children>\n                        <AnchorPane prefHeight=\"87.0\" prefWidth=\"603.0\">\n                            <children>\n                                <Button layoutX=\"68.0\" layoutY=\"43.0\" mnemonicParsing=\"false\" onAction=\"#save\" prefHeight=\"40.0\" prefWidth=\"156.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-button\" text=\"Save\" textAlignment=\"CENTER\" textOverrun=\"CLIP\">\n                                    <effect>\n                                        <DropShadow />\n                                    </effect>\n                                </Button>\n                                <Button layoutX=\"276.0\" layoutY=\"43.0\" mnemonicParsing=\"false\" onAction=\"#cancel\" prefHeight=\"40.0\" prefWidth=\"156.0\" style=\"-fx-font-size: 16px;\" styleClass=\"jfx-button\" text=\"Cancel\" textAlignment=\"CENTER\" textOverrun=\"CLIP\">\n                                    <effect>\n                                        <DropShadow />\n                                    </effect>\n                                </Button>\n                            </children>\n                        </AnchorPane>\n                    </children>\n                </HBox>\n            </children>\n        </VBox>\n    </children>\n</AnchorPane>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/fxml/QLDocGia/themDocGia.fxml	(revision 8009d2c9435fa914bb80ee0f84fb8d91a60890df)
++++ target/classes/fxml/QLDocGia/themDocGia.fxml	(date 1597674128612)
+@@ -1,15 +1,20 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ 
+-<?import java.lang.*?>
+-<?import java.util.*?>
+-<?import javafx.scene.*?>
+-<?import javafx.scene.control.*?>
+-<?import javafx.scene.layout.*?>
+-
+-<?import javafx.scene.image.ImageView?>
+-<?import javafx.scene.image.Image?>
+ <?import javafx.geometry.Insets?>
+-<AnchorPane fx:id="rootPane" prefHeight="561.0" prefWidth="486.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.EditProfileController">
++<?import javafx.scene.control.Button?>
++<?import javafx.scene.control.DatePicker?>
++<?import javafx.scene.control.Label?>
++<?import javafx.scene.control.TextField?>
++<?import javafx.scene.image.Image?>
++<?import javafx.scene.image.ImageView?>
++<?import javafx.scene.layout.AnchorPane?>
++<?import javafx.scene.layout.ColumnConstraints?>
++<?import javafx.scene.layout.GridPane?>
++<?import javafx.scene.layout.HBox?>
++<?import javafx.scene.layout.RowConstraints?>
++<?import javafx.scene.layout.VBox?>
++
++<AnchorPane fx:id="rootPane" prefHeight="561.0" prefWidth="486.0" stylesheets="@../../css/style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+     <children>
+         <VBox layoutX="-1.0" prefHeight="513.0" prefWidth="604.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+             <children>
+@@ -34,9 +39,12 @@
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                         <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
++                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                     <children>
+-                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Name">
++                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Họ và tên">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+@@ -45,7 +53,7 @@
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></TextField>
+-                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Username" GridPane.rowIndex="1">
++                        <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Email" GridPane.rowIndex="1">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></Label>
+@@ -53,7 +61,7 @@
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin></TextField>
+-                        <Label layoutX="20.0" layoutY="191.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Email" GridPane.rowIndex="2">
++                        <Label layoutX="20.0" layoutY="191.0" style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Giới tính" GridPane.rowIndex="2">
+                             <GridPane.margin>
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+@@ -63,6 +71,39 @@
+                                 <Insets left="10.0" right="10.0" top="20.0" />
+                             </GridPane.margin>
+                         </TextField>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="SĐT" GridPane.rowIndex="3">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Ngày sinh" GridPane.rowIndex="4">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <Label style="-fx-font-size: 16px; -fx-font-weight: bold;" text="Địa chỉ" GridPane.rowIndex="5">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </Label>
++                  <TextField fx:id="email1" disable="false" style="-fx-font-size: 16px;" GridPane.columnIndex="1" GridPane.rowIndex="3">
++                     <opaqueInsets>
++                        <Insets />
++                     </opaqueInsets>
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </TextField>
++                  <DatePicker prefHeight="53.0" prefWidth="288.0" GridPane.columnIndex="1" GridPane.rowIndex="4">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </DatePicker>
++                  <TextField fx:id="email11" disable="false" style="-fx-font-size: 16px;" GridPane.columnIndex="1" GridPane.rowIndex="5">
++                     <GridPane.margin>
++                        <Insets left="10.0" right="10.0" top="20.0" />
++                     </GridPane.margin>
++                  </TextField>
+                     </children>
+                     <VBox.margin>
+                         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+@@ -72,14 +113,14 @@
+                     <children>
+                         <AnchorPane prefHeight="87.0" prefWidth="603.0">
+                             <children>
+-                                <Button layoutX="68.0" layoutY="43.0" mnemonicParsing="false" onAction="#save" prefHeight="40.0" prefWidth="156.0" style="-fx-font-size: 16px;" styleClass="jfx-button" text="Save" textAlignment="CENTER" textOverrun="CLIP">
++                                <Button layoutX="68.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="156.0" style="-fx-font-size: 16px;" styleClass="jfx-button" text="Save" textAlignment="CENTER" textOverrun="CLIP">
+                                     <effect>
+-                                        <DropShadow />
++
+                                     </effect>
+                                 </Button>
+-                                <Button layoutX="276.0" layoutY="43.0" mnemonicParsing="false" onAction="#cancel" prefHeight="40.0" prefWidth="156.0" style="-fx-font-size: 16px;" styleClass="jfx-button" text="Cancel" textAlignment="CENTER" textOverrun="CLIP">
++                                <Button layoutX="276.0" layoutY="43.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="156.0" style="-fx-font-size: 16px;" styleClass="jfx-button" text="Cancel" textAlignment="CENTER" textOverrun="CLIP">
+                                     <effect>
+-                                        <DropShadow />
++
+                                     </effect>
+                                 </Button>
+                             </children>
+Index: target/classes/fxml/QuanLyDocGia.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n\n<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIcon?>\n<?import javafx.geometry.Insets?>\n<?import javafx.scene.control.Button?>\n<?import javafx.scene.effect.DropShadow?>\n<?import javafx.scene.layout.AnchorPane?>\n<?import javafx.scene.layout.BorderPane?>\n<?import javafx.scene.layout.HBox?>\n<?import javafx.scene.layout.VBox?>\n\n<AnchorPane prefHeight=\"400.0\" prefWidth=\"600.0\" xmlns=\"http://javafx.com/javafx/8.0.171\" xmlns:fx=\"http://javafx.com/fxml/1\" fx:controller=\"CONTROLLERS.QuanLyDocGia\">\n   <children>\n      <BorderPane maxHeight=\"-Infinity\" maxWidth=\"-Infinity\" minHeight=\"-Infinity\" minWidth=\"-Infinity\" prefHeight=\"600.0\" prefWidth=\"1235.0\" style=\"-fx-background-color: #e5e5e5;\" stylesheets=\"@../css/style.css\">\n         <top>\n            <HBox BorderPane.alignment=\"CENTER\" />\n         </top>\n         <left>\n            <VBox maxWidth=\"-Infinity\" prefHeight=\"528.0\" prefWidth=\"201.0\" style=\"-fx-background-color: white;\" BorderPane.alignment=\"CENTER\">\n               <children>\n                  <HBox alignment=\"CENTER_LEFT\">\n                     <children>\n                        <VBox>\n                           <children>\n                              <Button fx:id=\"signup\" alignment=\"TOP_LEFT\" layoutX=\"10.0\" layoutY=\"10.0\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Đăng ký TK đọc giả\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"SERVER\" size=\"1.5em\" text=\"\uF233\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                              </Button>\n                              <Button fx:id=\"addReader\" alignment=\"TOP_LEFT\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Thêm đọc giả từ file\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"PLUS\" size=\"1.5em\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                                 <VBox.margin>\n                                    <Insets top=\"20.0\" />\n                                 </VBox.margin>\n                              </Button>\n                              <Button fx:id=\"readerList\" alignment=\"TOP_LEFT\" layoutX=\"10.0\" layoutY=\"214.0\" mnemonicParsing=\"false\" prefHeight=\"31.0\" prefWidth=\"190.0\" style=\"-fx-background-color: white; -fx-text-fill: black; -fx-font-family: Quicksand;\" styleClass=\"hover-border\" text=\"Danh sách đọc giả\">\n                                 <graphic>\n                                    <FontAwesomeIcon iconName=\"TH_LIST\" size=\"1.5em\" wrappingWidth=\"25.0\" />\n                                 </graphic>\n                                 <VBox.margin>\n                                    <Insets top=\"20.0\" />\n                                 </VBox.margin>\n                              </Button>\n                           </children>\n                        </VBox>\n                     </children>\n                     <padding>\n                        <Insets bottom=\"10.0\" left=\"10.0\" right=\"10.0\" top=\"10.0\" />\n                     </padding>\n                     <VBox.margin>\n                        <Insets top=\"20.0\" />\n                     </VBox.margin>\n                  </HBox>\n               </children>\n            </VBox>\n         </left>\n         <center>\n            <VBox prefHeight=\"528.0\" prefWidth=\"1021.0\" BorderPane.alignment=\"CENTER\">\n               <padding>\n                  <Insets bottom=\"20.0\" left=\"20.0\" right=\"20.0\" top=\"20.0\" />\n               </padding>\n               <children>\n                  <BorderPane fx:id=\"mainView\" prefHeight=\"435.0\" prefWidth=\"994.0\">\n                     <center>\n<!--                        <fx:include source=\"listview.fxml\" BorderPane.alignment=\"CENTER\" />-->\n                     </center>\n                  </BorderPane>\n               </children>\n               <effect>\n                  <DropShadow color=\"#e8caca\" height=\"10.0\" radius=\"4.5\" width=\"10.0\" />\n               </effect>\n            </VBox>\n         </center>\n      </BorderPane>\n   </children>\n</AnchorPane>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- target/classes/fxml/QuanLyDocGia.fxml	(revision 8009d2c9435fa914bb80ee0f84fb8d91a60890df)
++++ target/classes/fxml/QuanLyDocGia.fxml	(date 1597674092198)
+@@ -64,7 +64,7 @@
+                <children>
+                   <BorderPane fx:id="mainView" prefHeight="435.0" prefWidth="994.0">
+                      <center>
+-<!--                        <fx:include source="listview.fxml" BorderPane.alignment="CENTER" />-->
++                        <fx:include source="./QLDocGia/themDocGia.fxml" BorderPane.alignment="CENTER" />
+                      </center>
+                   </BorderPane>
+                </children>
+Index: src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml	(date 1597673987379)
++++ src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml	(date 1597673987379)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<?import java.lang.*?>
++<?import java.util.*?>
++<?import javafx.scene.*?>
++<?import javafx.scene.control.*?>
++<?import javafx.scene.layout.*?>
++
++<AnchorPane xmlns="http://javafx.com/javafx"
++            xmlns:fx="http://javafx.com/fxml"
++            fx:controller="fxml.QLDocGia.ThemDocGiaTuFile"
++            prefHeight="400.0" prefWidth="600.0">
++
++</AnchorPane>

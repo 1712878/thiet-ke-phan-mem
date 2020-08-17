@@ -1,0 +1,101 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 616c532414d524617a87a4c1d91c091b528ca6cc)
++++ .idea/workspace.xml	(date 1597592010864)
+@@ -1,5 +1,8 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
+   <component name="BranchesTreeState">
+     <expand>
+       <path>
+@@ -19,38 +22,7 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Accounts.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/AuthorBook.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Authors.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookBorrow.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookItems.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/BookReservations.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Books.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Cards.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Categories.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Constants.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Fines.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/FrequentlyQuestions.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Publishers.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ReaderTypes.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/Readers.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/ReadingRoom.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/RoomBorrow.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/models/UserResponses.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HashCode.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/java/utils/HibernateAnnotationUtil.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Hibernate_5_4_11_5_4_11.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/quan-ly-thu-vien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quan-ly-thu-vien.iml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/View/sample.fxml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/View/sample.fxml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Controller.class" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/target/classes/sample/Main.class" beforeDir="false" />
+-    </list>
++    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -114,6 +86,13 @@
+   <component name="Git.Settings">
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
++  <component name="MavenImportPreferences">
++    <option name="generalSettings">
++      <MavenGeneralSettings>
++        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
++      </MavenGeneralSettings>
++    </option>
++  </component>
+   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+   <component name="ProjectId" id="1gA6UamurSVXPRq6yZgiYWcr4hm" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+@@ -138,7 +117,7 @@
+     <property name="WebServerToolWindowFactoryState" value="false" />
+     <property name="aspect.path.notification.shown" value="true" />
+     <property name="dynamic.classpath" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/utils" />
++    <property name="last_opened_file_path" value="$USER_HOME$/BasicJavaProject" />
+     <property name="project.structure.last.edited" value="Project" />
+     <property name="project.structure.proportion" value="0.15" />
+     <property name="project.structure.side.proportion" value="0.4183908" />
+@@ -242,6 +221,7 @@
+       </method>
+     </configuration>
+   </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="SvnConfiguration">
+     <configuration />
+   </component>
+@@ -313,10 +293,11 @@
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>
+     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597584169019" />
+-    <state x="737" y="314" width="424" height="491" key="FileChooserDialogImpl" timestamp="1597545365993">
+-      <screen x="0" y="27" width="1920" height="1053" />
++    <state x="569" y="229" width="374" height="353" key="FileChooserDialogImpl" timestamp="1597592010204">
++      <screen x="72" y="27" width="1294" height="741" />
+     </state>
+     <state x="737" y="314" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597545365993" />
++    <state x="569" y="229" width="374" height="353" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1597592010204" />
+     <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1597585908407">
+       <screen x="0" y="27" width="1920" height="1053" />
+     </state>

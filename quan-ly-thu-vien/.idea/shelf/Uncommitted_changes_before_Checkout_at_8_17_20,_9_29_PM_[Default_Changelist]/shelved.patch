@@ -1,0 +1,22 @@
+Index: src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml	(date 1597674409689)
++++ src/main/resources/fxml/QLDocGia/themDocGiaTuFile.fxml	(date 1597674409689)
+@@ -0,0 +1,14 @@
++<?xml version="1.0" encoding="UTF-8"?>
++
++<?import java.lang.*?>
++<?import java.util.*?>
++<?import javafx.scene.*?>
++<?import javafx.scene.control.*?>
++<?import javafx.scene.layout.*?>
++
++<AnchorPane xmlns="http://javafx.com/javafx"
++            xmlns:fx="http://javafx.com/fxml"
++            fx:controller="fxml.QLDocGia.ThemDocGiaTuFile"
++            prefHeight="400.0" prefWidth="600.0">
++
++</AnchorPane>
