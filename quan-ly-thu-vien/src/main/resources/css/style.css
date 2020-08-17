@@ -1,0 +1,135 @@
+* {
+  -fx-primary: #6200ee;
+  -fx-secondary: #03dac5;
+  -fx-gray: #606060;
+}
+
+.primary-btn {
+  -fx-background-color: -fx-primary;
+  -fx-text-fill: #fff;
+}
+
+.secondary-btn {
+  -fx-background-color: -fx-secondary;
+}
+
+
+.tab-pane .tab-header-area .tab-header-background {
+  -fx-opacity: 0;
+}
+
+.tab{
+  -fx-background-insets: 0 1 0 1,0,0;
+  -fx-pref-height: 60px;
+}
+.tab-pane .tab
+{
+  -fx-background-color: #ffffff;
+
+}
+
+.tab-pane .tab:selected
+{
+  -fx-background-color: #5da5ec;
+}
+
+.tab .tab-label {
+  /*-fx-alignment: CENTER;*/
+  -fx-pref-width: 150px;
+  -fx-text-fill: #131313;
+  -fx-font-size: 18px;
+}
+
+.tab:selected .tab-label {
+  /*-fx-alignment: CENTER;*/
+  -fx-text-fill: #ffffff;
+}
+
+* {
+  -fx-primary : #474aff;
+  -fx-secondary : #6c747e;
+  -fx-success: #00b73e;
+  -fx-danger: #e8003f;
+  -fx-warning: #ffca00;
+  -fx-info: #00a3ba;
+  -fx-light: #f8f9fa;
+  -fx-dark: #343940;
+  -fx-primarytext : #B2B2B2;
+  -fx-blue: #1976D2;
+  -fx-red: #FF0000;
+  -fx-color-1:#1976D2;
+}
+
+.root{
+  -fx-background-color: -fx-light;
+}
+
+.jfx-button{
+  -fx-background-color: -fx-info;
+  -fx-text-fill: -fx-light;
+  /*-fx-text-fill: -fx-primary;*/
+  /*-fx-border-color: -fx-light;*/
+  /*-fx-background-radius: 20px;*/
+
+}
+
+.button {
+  -fx-background-color: -fx-info;
+  -fx-text-fill: white;
+}
+
+.button:hover{
+  -fx-background-color: #00606d;
+}
+
+/*.button:hover, .button:focused{*/
+/*    -fx-background-color: #00606d;*/
+/*}*/
+
+
+.text-field
+{
+  -fx-text-fill: -fx-primarytext;
+  -jfx-focus-color: -fx-secondary;
+  -fx-text-fill: derive(-fx-secondary, 20%);
+}
+
+.jfx-textfield {
+  -fx-tick-label-fill: #474aff;
+  -fx-border-width: 0;
+}
+
+.hover-border:hover {
+  -fx-border-color: #0fbcf9;
+  -fx-border-width: 0px 0px 0px 2px;
+  -fx-background-color: -fx-info;
+}
+
+.hover-fade:hover {
+  -fx-background-color: #f0f0f0 !important;
+}
+
+.hover-button:hover {
+  -fx-background-color: #02145a !important;
+}
+
+.cursor_hand {
+  -fx-cursor: hand;
+}
+
+.table-column {
+  -fx-alignment: center;
+}
+
+.border-image {
+  -fx-border-style: solid;
+  -fx-border-color: black;
+  -fx-border-width: 1px;
+  -fx-background-color: black;
+  -fx-background-insets: -20, -10;
+  -fx-background-position: left top, center;
+  -fx-background-repeat: no-repeat;
+  -fx-background-size: cover, auto;
+}
+
+

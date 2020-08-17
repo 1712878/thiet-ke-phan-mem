@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<?import javafx.scene.control.Label?>
+<AnchorPane style="-fx-background-color: #d2d219;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLERS.BaoCao">
+   <children>
+      <Label layoutX="162.0" layoutY="140.0" text="Tab báo cáo" />
+   </children>
+</AnchorPane>
