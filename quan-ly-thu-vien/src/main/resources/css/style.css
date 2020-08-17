@@ -13,10 +13,35 @@
   -fx-background-color: -fx-secondary;
 }
 
-.tab {
-  -fx-background-color: -fx-primary;
+
+.tab-pane .tab-header-area .tab-header-background {
+  -fx-opacity: 0;
 }
 
-.tab-header-background {
-  -fx-background-color: -fx-primary;
+.tab{
+  -fx-background-insets: 0 1 0 1,0,0;
+  -fx-pref-height: 60px;
 }
+.tab-pane .tab
+{
+  -fx-background-color: #ffffff;
+
+}
+
+.tab-pane .tab:selected
+{
+  -fx-background-color: #5da5ec;
+}
+
+.tab .tab-label {
+  /*-fx-alignment: CENTER;*/
+  -fx-pref-width: 150px;
+  -fx-text-fill: #131313;
+  -fx-font-size: 18px;
+}
+
+.tab:selected .tab-label {
+  /*-fx-alignment: CENTER;*/
+  -fx-text-fill: #ffffff;
+}
+

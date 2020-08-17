@@ -7,6 +7,16 @@
         <naming-strategy-map />
       </configuration>
     </facet>
+    <facet type="jpa" name="JPA">
+      <configuration>
+        <setting name="validation-enabled" value="true" />
+        <setting name="provider-name" value="Hibernate" />
+        <datasource-mapping>
+          <factory-entry name="quan-ly-thu-vien" />
+        </datasource-mapping>
+        <naming-strategy-map />
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/target/classes" />
@@ -40,6 +50,7 @@
     <orderEntry type="library" name="Maven: com.sun.xml.fastinfoset:FastInfoset:1.2.15" level="project" />
     <orderEntry type="library" name="Maven: mysql:mysql-connector-java:8.0.20" level="project" />
     <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:3.6.1" level="project" />
-    <orderEntry type="library" name="Maven: de.jensd:fontawesomefx:8.1" level="project" />
+    <orderEntry type="library" name="Maven: de.jensd:fontawesomefx:8.2" level="project" />
+    <orderEntry type="library" name="Maven: com.jfoenix:jfoenix:8.0.10" level="project" />
   </component>
 </module>

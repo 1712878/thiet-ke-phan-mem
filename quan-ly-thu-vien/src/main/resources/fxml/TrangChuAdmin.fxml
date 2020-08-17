@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLERS.TrangChuAdmin">
+    <children>
+        <TabPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308">
+            <tabs>
+                <Tab closable="false" text="Quản lý đọc giả">
+                    <content>
+                        <fx:include fx:id="QLDGTabPage" source="QuanLyDocGia.fxml" />
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Quản lý sách">
+                    <content>
+                        <fx:include fx:id="QLSTabPage" source="QuanLySach.fxml" />
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Mượn trả sách">
+                    <content>
+                        <fx:include fx:id="MTSTabPage" source="MuonTraSach.fxml" />
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Phòng đọc">
+                    <content>
+                        <fx:include fx:id="PDTabPage" source="PhongDoc.fxml" />
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Báo Cáo">
+                    <content>
+                        <fx:include fx:id="BCTabPage" source="BaoCao.fxml" />
+                    </content>
+                </Tab>
+                <Tab closable="false" text="Quy định">
+                    <content>
+                        <fx:include fx:id="QDTabPage" source="QuyDinh.fxml" />
+                    </content>
+                </Tab>
+            </tabs>
+         <padding>
+            <Insets right="200.0" />
+         </padding>
+        </TabPane>
+      <HBox alignment="CENTER" prefHeight="60.0" prefWidth="150.0" style="-fx-background-color: #eee;" AnchorPane.leftAnchor="1000.0" AnchorPane.rightAnchor="3.0" AnchorPane.topAnchor="5.0">
+         <children>
+            <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/user.png" />
+               </image>
+            </ImageView>
+            <Label text="Admin">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <Hyperlink text="Đăng xuất" />
+         </children>
+      </HBox>
+    </children>
+</AnchorPane>
