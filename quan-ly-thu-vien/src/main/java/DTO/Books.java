@@ -5,7 +5,8 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-public class Books implements DTO {
+@Table(name = "BOOKS", schema = "QuanLyThuVien")
+public class Books implements DTO{
     private int id;
     private String title;
     private Integer publisherid;
@@ -105,7 +106,7 @@ public class Books implements DTO {
     }
 
     @ManyToOne
-    @JoinColumn(name = "PUBLISHERID", referencedColumnName = "ID",insertable = false, updatable = false)
+    @JoinColumn(name = "PUBLISHERID", referencedColumnName = "ID", insertable = false, updatable = false)
     public Publishers getPublishersByPublisherid() {
         return publishersByPublisherid;
     }
@@ -115,7 +116,7 @@ public class Books implements DTO {
     }
 
     @ManyToOne
-    @JoinColumn(name = "CATEGORYID", referencedColumnName = "ID",insertable = false, updatable = false)
+    @JoinColumn(name = "CATEGORYID", referencedColumnName = "ID", insertable = false, updatable = false)
     public Categories getCategoriesByCategoryid() {
         return categoriesByCategoryid;
     }

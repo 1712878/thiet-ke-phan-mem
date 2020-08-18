@@ -4,7 +4,8 @@ import javax.persistence.*;
 import java.util.Objects;
 
 @Entity
-public class Cards implements DTO {
+@Table(name = "CARDS", schema = "QuanLyThuVien")
+public class Cards implements DTO{
     private int id;
     private String barcode;
     private Integer readerid;

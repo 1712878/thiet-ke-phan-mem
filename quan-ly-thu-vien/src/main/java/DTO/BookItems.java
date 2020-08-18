@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "BOOK_ITEMS", schema = "QuanLyThuVien", catalog = "")
-public class BookItems implements DTO {
+public class BookItems implements DTO{
     private int id;
     private String barcode;
     private Integer status;

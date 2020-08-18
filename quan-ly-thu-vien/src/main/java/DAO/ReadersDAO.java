@@ -10,7 +10,7 @@ public class ReadersDAO extends BasicDAO{
         return (Readers) get(id, Readers.class);
     }
     public static List<Readers> getReaders(){
-        return (List<Readers>) getAll("Readers");
+        return (List<Readers>) getAll("READERS");
     }
 
     public static boolean createReader(Readers reader) {

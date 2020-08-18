@@ -6,7 +6,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "BOOK_RESERVATIONS", schema = "QuanLyThuVien", catalog = "")
-public class BookReservations implements DTO {
+public class BookReservations implements DTO{
     private int id;
     private Integer bookitemid;
     private Integer userid;
@@ -81,7 +81,7 @@ public class BookReservations implements DTO {
     }
 
     @ManyToOne
-    @JoinColumn(name = "USERID", referencedColumnName = "ID",insertable = false, updatable = false)
+    @JoinColumn(name = "USERID", referencedColumnName = "ID", insertable = false, updatable = false)
     public Accounts getAccountsByUserid() {
         return accountsByUserid;
     }

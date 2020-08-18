@@ -7,7 +7,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "BOOK_BORROW", schema = "QuanLyThuVien", catalog = "")
-public class BookBorrow implements DTO {
+public class BookBorrow implements DTO{
     private int id;
     private Timestamp borrowtime;
     private Timestamp duetime;
@@ -85,7 +85,7 @@ public class BookBorrow implements DTO {
     }
 
     @ManyToOne
-    @JoinColumn(name = "BOOKITEMID", referencedColumnName = "ID",insertable = false, updatable = false)
+    @JoinColumn(name = "BOOKITEMID", referencedColumnName = "ID", insertable = false, updatable = false)
     public BookItems getBookItemsByBookitemid() {
         return bookItemsByBookitemid;
     }
@@ -95,7 +95,7 @@ public class BookBorrow implements DTO {
     }
 
     @ManyToOne
-    @JoinColumn(name = "ACCOUNTID", referencedColumnName = "ID",insertable = false, updatable = false)
+    @JoinColumn(name = "ACCOUNTID", referencedColumnName = "ID", insertable = false, updatable = false)
     public Accounts getAccountsByAccountid() {
         return accountsByAccountid;
     }

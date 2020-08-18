@@ -19,16 +19,54 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8a07c4fc-fee7-4a42-a7e3-6e351c84efb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/AddReaderFromFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/ReaderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/BLL/SignupAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/UTILS/AlertDialog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/failed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/success.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/images/user.png" afterDir="false" />
+    <list default="true" id="db88c7c1-b2bd-48f7-a1e7-a872019123cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/padlock.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__de_jensd_fontawesomefx_8_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/quan-ly-thu-vien.iml" beforeDir="false" afterPath="$PROJECT_DIR$/quan-ly-thu-vien.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/BLL/SignupAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BLL/SignupAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CONTROLLERS/QuanLyDocGia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CONTROLLERS/QuanLyDocGia.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DAO/ReadersDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DAO/ReadersDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/AuthorBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/AuthorBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Authors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Authors.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookBorrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookItems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/BookReservations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/BookReservations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Cards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Cards.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Categories.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Categories.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Fines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Fines.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/FrequentlyQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/FrequentlyQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Publishers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Publishers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ReaderTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ReaderTypes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/DTO/Readers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/Readers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/ReadingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/ReadingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/RoomBorrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/RoomBorrow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DTO/UserResponses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DTO/UserResponses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/DangNhap.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/DangNhap.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/QLDocGia/themDocGia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/QLDocGia/themDocGia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/QuanLyDocGia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/QuanLyDocGia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Accounts.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Authors.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Authors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Cards.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Cards.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Categories.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Categories.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Fines.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Fines.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/FrequentlyQuestions.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/FrequentlyQuestions.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Publishers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Publishers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/ReaderTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/ReaderTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/DTO/Readers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/DTO/Readers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/DangNhap.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/DangNhap.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/QLDocGia/themDocGia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/QLDocGia/themDocGia.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/fxml/QuanLyDocGia.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/fxml/QuanLyDocGia.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,11 +157,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="JPA.DatabaseSchemaImportDialog" value="c557f6d4-747a-497b-bb3d-cdabd260d206" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="947eacaa-0072-40fd-8ecd-2ca5cfc1cc37" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -148,6 +188,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/utils" />
     </key>
     <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="DTO" />
       <recent name="models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -155,7 +196,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources/views" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.GenerateDAOFiles">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -259,7 +300,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="8a07c4fc-fee7-4a42-a7e3-6e351c84efb1" name="Default Changelist" comment="" />
+      <changelist id="db88c7c1-b2bd-48f7-a1e7-a872019123cc" name="Default Changelist" comment="" />
       <created>1359379246138</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -274,6 +315,8 @@
       <workItem from="1597628779129" duration="138000" />
       <workItem from="1597630323671" duration="8597000" />
       <workItem from="1597642874634" duration="10485000" />
+      <workItem from="1597710531085" duration="90000" />
+      <workItem from="1597710694978" duration="4883000" />
     </task>
     <servers />
   </component>
@@ -297,38 +340,38 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="861" y="442" width="554" height="241" key="#Assign_Data_Sources" timestamp="1597563848237">
+    <state x="861" y="442" width="554" height="241" key="#Assign_Data_Sources" timestamp="1597713174906">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="861" y="442" width="554" height="241" key="#Assign_Data_Sources/0.27.1920.1053@0.27.1920.1053" timestamp="1597563848237" />
+    <state x="861" y="442" width="554" height="241" key="#Assign_Data_Sources/0.27.1920.1053@0.27.1920.1053" timestamp="1597713174906" />
     <state x="443" y="131" width="1024" height="852" key="#Project_Structure" timestamp="1597545788393">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="443" y="131" width="1024" height="852" key="#Project_Structure/0.27.1920.1053@0.27.1920.1053" timestamp="1597545788393" />
-    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597584357915">
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597713129127">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597584357915" />
-    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1597651579471">
+    <state x="555" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597713129127" />
+    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1597715530818">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597651579471" />
-    <state x="687" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597545337285">
+    <state x="1143" y="339" width="553" height="592" key="#com.intellij.ide.util.MemberChooser/0.27.1920.1053@0.27.1920.1053" timestamp="1597715530818" />
+    <state x="687" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1597713431055">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="687" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597545337285" />
+    <state x="687" y="334" width="524" height="451" key="#com.intellij.ide.util.PackageChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597713431055" />
     <state x="562" y="223" width="785" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1597545121115">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="562" y="223" width="785" height="668" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597545121115" />
-    <state x="633" y="280" width="744" height="762" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1597584383106">
+    <state x="633" y="280" width="1025" height="762" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog" timestamp="1597713447171">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="633" y="280" width="744" height="762" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597584383106" />
-    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597634526769">
+    <state x="633" y="280" width="1025" height="762" key="#com.intellij.jpa.generation.ui.DatabaseSchemaImportDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1597713447171" />
+    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1597713366166">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1597634526769" />
+    <state x="713" y="417" width="494" height="279" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.27.1920.1053@0.27.1920.1053" timestamp="1597713366166" />
     <state x="693" y="302" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597591978217">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -338,25 +381,25 @@
     </state>
     <state x="737" y="314" width="424" height="491" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1597545365993" />
     <state x="569" y="229" width="374" height="353" key="FileChooserDialogImpl/72.27.1294.741@72.27.1294.741" timestamp="1597592697986" />
-    <state width="1248" height="172" key="GridCell.Tab.0.bottom" timestamp="1597597045393">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1597715172638">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994883" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1597715172638" />
     <state width="1248" height="172" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1597597045393" />
-    <state width="1248" height="172" key="GridCell.Tab.0.center" timestamp="1597597045392">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1597715172636">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994882" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1597715172636" />
     <state width="1248" height="172" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1597597045392" />
-    <state width="1248" height="172" key="GridCell.Tab.0.left" timestamp="1597597045392">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1597715172635">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994882" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1597715172635" />
     <state width="1248" height="172" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1597597045392" />
-    <state width="1248" height="172" key="GridCell.Tab.0.right" timestamp="1597597045392">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1597715172637">
+      <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597587994883" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1597715172637" />
     <state width="1248" height="172" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1597597045392" />
     <state x="591" y="314" width="728" height="485" key="MultipleFileMergeDialog" timestamp="1597588301226">
       <screen x="0" y="27" width="1920" height="1053" />
@@ -370,6 +413,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="731" y="468" width="457" height="177" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.27.1920.1053@0.27.1920.1053" timestamp="1597588295043" />
+    <state x="624" y="252" key="run.anything.popup" timestamp="1597714863980">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="624" y="252" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1597714863980" />
     <state x="623" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1597651187042">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
