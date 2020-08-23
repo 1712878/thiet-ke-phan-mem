@@ -55,7 +55,7 @@ public class SignupAccount implements Initializable {
         save.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
-                if(fullname.getText().isEmpty() ||
+                if(fullname.getText().isEmpty() || gender.getText().isEmpty() ||
                         email.getText().isEmpty() || phoneNumber.getText().isEmpty() || address.getText().isEmpty() || dateOfBirth.getValue().toString().isEmpty()){
                     AlertDialog.showAlertWithoutHeaderText("Error", "Vui lòng điển đầy đủ thông tin!", "failed");
                 }else {
@@ -63,6 +63,7 @@ public class SignupAccount implements Initializable {
                     readers.setName(fullname.getText());
                     readers.setEmail(email.getText());
                     readers.setAddress(address.getText());
+                    readers.setGender(gender.getText());
                     readers.setDob(LocalDate.parse(dateOfBirth.getValue().toString()));
                     readers.setPhone(phoneNumber.getText());
                     readers.setType(1);

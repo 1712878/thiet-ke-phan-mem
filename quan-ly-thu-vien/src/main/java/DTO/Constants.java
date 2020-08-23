@@ -1,11 +1,13 @@
 package DTO;
 
-import javax.persistence.*;
+import javax.persistence.Basic;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Id;
 import java.util.Objects;
 
 @Entity
-@Table(name = "CONSTANTS", schema = "QuanLyThuVien")
-public class Constants implements DTO{
+public class Constants implements DTO {
     private int id;
     private String k;
     private String val;

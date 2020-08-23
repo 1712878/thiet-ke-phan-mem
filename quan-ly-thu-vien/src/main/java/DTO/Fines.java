@@ -5,8 +5,7 @@ import java.sql.Timestamp;
 import java.util.Objects;
 
 @Entity
-@Table(name = "FINES", schema = "QuanLyThuVien")
-public class Fines implements DTO{
+public class Fines implements DTO {
     private int id;
     private Timestamp createdat;
     private Integer bookborrowid;
@@ -34,7 +33,7 @@ public class Fines implements DTO{
     }
 
     @Basic
-    @Column(name = "BOOKBORROWID")
+    @Column(name = "BOOKBORROWID", nullable=false)
     public Integer getBookborrowid() {
         return bookborrowid;
     }

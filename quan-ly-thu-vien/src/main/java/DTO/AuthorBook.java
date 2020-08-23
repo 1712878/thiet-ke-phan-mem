@@ -5,7 +5,7 @@ import java.util.Objects;
 
 @Entity
 @Table(name = "AUTHOR_BOOK", schema = "QuanLyThuVien", catalog = "")
-public class AuthorBook implements DTO{
+public class AuthorBook implements DTO {
     private int id;
     private Integer idauthor;
     private Integer idbook;

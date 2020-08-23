@@ -5,8 +5,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-@Table(name = "AUTHORS", schema = "QuanLyThuVien")
-public class Authors implements DTO{
+public class Authors implements DTO {
     private int id;
     private String name;
     private String description;

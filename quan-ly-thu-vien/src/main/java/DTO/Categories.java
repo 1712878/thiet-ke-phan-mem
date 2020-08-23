@@ -5,8 +5,7 @@ import java.util.Collection;
 import java.util.Objects;
 
 @Entity
-@Table(name = "CATEGORIES", schema = "QuanLyThuVien")
-public class Categories implements DTO{
+public class Categories implements DTO {
     private int id;
     private String name;
     private Collection<Books> booksById;
